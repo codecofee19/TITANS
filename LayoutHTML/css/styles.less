@@ -1,0 +1,46 @@
+// IMPORTS
+ 
+@import "addons";
+@import "reset";
+
+// MAIN STRUCTURE
+
+html, body{
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-size: 12px;
+    background: @main;
+}
+
+header{
+    width:100%;
+    background: @c2;
+    .logo{
+        float:left;
+        padding: 18px 10px;
+        .fs7;
+        .f1;
+    }
+    nav{
+        float:right;
+        ul{
+            li{
+                float:right;
+                padding: 30px 20px;
+                text-transform:uppercase;
+                margin-right:10px;
+                .f3;
+                .fs4;
+                a{
+                    color: @main;
+                    display:block;
+                }
+            }
+        }
+    }
+}
