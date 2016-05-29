@@ -23,23 +23,34 @@ body{
     width:100%;
     height:100%;
     overflow:auto;
-    .logo{
-        width:25%;
+    .flag-info{
+        width:70%;
         display: block;
         position: absolute;
+        text-align: center;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        letter-spacing: 2px;
+        color: @white;
+        .fs6;
+        .f1;
     }
 }
 
 header{
     width:100%;
-    background: @c2;
+    position: fixed;
     .logo{
         float:left;
+        max-height:100px;
+        padding: 25px;
+    }
+    .nav_launcher{
         padding: 18px 10px;
-        .fs7;
+        color: @white;
+        float:right;
+        .fs4;
         .f1;
     }
     nav{
