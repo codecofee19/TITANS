@@ -2,6 +2,8 @@
 
 return [
 
+    'name' => 'TiTANS - Teens in Tech : Acquiring New Skills',
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/titans":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/titans","hostpath":"/Users/vanessavinson/Code/TITANS","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/vanessavinson/Code/TITANS","disabled":false}}}
