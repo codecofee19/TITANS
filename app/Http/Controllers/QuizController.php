@@ -14,9 +14,39 @@ class QuizController extends Controller
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function question1()
 	{
-		//
+		return view('quiz.question1');
+	}
+
+	public function question2()
+	{
+		return view('quiz.question2');
+	}
+
+	public function question3()
+	{
+		return view('quiz.question2');
+	}
+
+	public function question4()
+	{
+		return view('quiz.question2');
+	}
+
+	public function question5()
+	{
+		return view('quiz.question2');
+	}
+
+	public function question6()
+	{
+		return view('quiz.question2');
+	}
+
+	public function question7()
+	{
+		return view('quiz.question2');
 	}
 
 	/**

@@ -13,7 +13,8 @@
     <section class="home-type-selection">
         <article>
             <h1>Student</h1>
-            <button>Take Quiz</button>
+            {{--<button onclick="window.location.href='http://homie.apple.com/question1'">Take Quiz</button>--}}
+            <button onclick="window.location.href='http://titans-project.herokuapp.com/question1'">Take Quiz</button>
             <button>Sign In</button>
         </article>
         <article>
