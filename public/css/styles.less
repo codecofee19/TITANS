@@ -107,6 +107,7 @@ header.signedin{
         .fs3;
     }
     button{
+        cursor: pointer;
         margin-top: 20px;
         left: 50%;
         transform: translate(-50%, 0);
@@ -144,6 +145,7 @@ header.signedin{
             .fs7;
         }
         button{
+            cursor: pointer;
             background: transparent;
             margin-top: 10px;
             width: 100%;
@@ -245,11 +247,11 @@ header.signedin{
                 .fs3;
             }
             button{
+                cursor: pointer;
                 border: @main 1px solid;
                 color: @main;
                 background: @white;
                 font-weight: bold;
-                border: none;
                 margin-top: 20px;
                 width: 25%;
                 padding: 9px;
@@ -408,6 +410,7 @@ header.signedin{
             .fs2;
         }
         button{
+            cursor: pointer;
             float: left;
             background: @main;
             color: @white;
@@ -485,6 +488,7 @@ header.signedin{
                 .fs3;
             }
             button{
+                cursor: pointer;
                 float: left;
                 background: @c4;
                 color: @main;
@@ -519,7 +523,10 @@ footer{
         .fs4;
         a{
             color: @c4;
-            .fs4; 
+            .fs4;
+            &:hover{
+                color: @white;
+            }
         }
     }
     .copyright{
