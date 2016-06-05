@@ -29,6 +29,8 @@ Route::get('/', function () {
 
     Route::get('question7', 'QuizController@question7');
 
+    Route::get('studentprofile', 'StudentController@getProfile');
+
     Route::resource('student', 'StudentController');
 
     Route::resource('mentor', 'MentorController');

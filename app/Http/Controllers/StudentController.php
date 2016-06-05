@@ -15,9 +15,9 @@ class StudentController extends Controller
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function getStudentProfile()
 	{
-		//
+		return view('student.student_profile');
 	}
 
 	/**
