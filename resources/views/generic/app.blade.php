@@ -47,8 +47,6 @@
             </div>
         </section>
     </section>
-
-b
     <!-- App scripts -->
     @stack('scripts')
 
