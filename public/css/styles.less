@@ -247,6 +247,7 @@ header.signedin{
             button{
                 border: @main 1px solid;
                 color: @main;
+                background: @white;
                 font-weight: bold;
                 border: none;
                 margin-top: 20px;
@@ -254,6 +255,10 @@ header.signedin{
                 padding: 9px;
                 box-sizing: border-box;
                 .fs2;
+                &:hover{
+                    color: @white;
+                    background: @c2;
+                }
             }
         }
     }
@@ -512,6 +517,10 @@ footer{
         text-align: center;
         color: @c4;
         .fs4;
+        a{
+            color: @c4;
+            .fs4; 
+        }
     }
     .copyright{
         text-align: center;
