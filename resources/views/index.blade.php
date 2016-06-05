@@ -1,7 +1,8 @@
 @extends('generic.app')
 
 @section('content')
-    
+
+<!--   
     <section class="flag">
         <video autoplay loop>
             <source src="http://titans.swirly.io/vids/students.mp4" type="video/mp4">
@@ -14,5 +15,6 @@
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
         </div>
     </section>
-
+-->
+    
 @stop
