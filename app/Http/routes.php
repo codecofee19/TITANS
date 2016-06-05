@@ -29,7 +29,7 @@ Route::get('/', function () {
 
     Route::get('question7', 'QuizController@question7');
 
-    Route::get('studentprofile', 'StudentController@getProfile');
+    Route::get('student_profile', 'StudentController@getProfile');
 
     Route::resource('student', 'StudentController');
 
