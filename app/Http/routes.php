@@ -22,4 +22,4 @@ Route::get('/', function () {
     Route::resource('school', 'SchoolController');
 
     Route::resource('quiz', 'QuizController');
-    
+
