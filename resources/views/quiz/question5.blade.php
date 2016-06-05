@@ -45,7 +45,7 @@
             <a href="http://titans-project.herokuapp.com/question6">
             <img src="/img/coding.jpg" class="two">
             </a>
-            <img src="/img/design.png" class="two">
+            <img src="/img/design.jpg" class="two">
             <div class="clear"></div>
         </div>
     </section>
