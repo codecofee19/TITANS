@@ -1,6 +1,7 @@
 <header>
-
+    <a href="http://titans-project.herokuapp.com/">
     <img src="/img/logo.svg" class="logo">
+    </a>
     <div class="nav_launcher">
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
