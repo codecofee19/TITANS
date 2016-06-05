@@ -1,57 +1,168 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>TiTANS - Teens in Tech : Acquring New Skills</title>
-        <!-- STYLE FILES -->
-            <!-- LESS MAIN FILE -->
-            <link rel="stylesheet/less" type="text/css" href="css/styles.less">
-            <!-- GOOGLE FONTS -->
-           <link href='https://fonts.googleapis.com/css?family=Passion+One:400,700|Slabo+27px|Lato:400,300,700,900' rel='stylesheet' type='text/css'>
-            <!-- FONT AWESOME -->
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <!-- JAVASCRIPT FILES -->
-            <!-- jQuery-->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-            <!-- LESSCSS-->
-            <script>
-              less = {
-                env: "development",
-                async: false,
-                fileAsync: false,
-                poll: 1000,
-                functions: {},
-                dumpLineNumbers: "comments",
-                relativeUrls: false,
-                rootpath: ":/a.com/"
-              };
-            </script>
-            <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
-        <!-- IE FIX -->
-            <!--[if lt IE 9]>
-                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-            <![endif]-->
-    </head>
+<head>
+    <meta name="env" content="{{ App::environment() }}">
+    <meta name="token" content="{{ Session::token() }}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TiTANS - Teens in Tech : Acquiring New Skills</title>
+
+    <!-- CSS -->
+    <link rel="shortcut icon" href="/img/logo.png">
+    <link rel="stylesheet/less" type="text/css" href="css/styles.less">
+    <link href='https://fonts.googleapis.com/css?family=Passion+One:400,700|Slabo+27px|Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="dist/hamburgers.css" rel="stylesheet">
+
+
+    <!-- Javascript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        less = {
+            env: "development",
+            async: false,
+            fileAsync: false,
+            poll: 1000,
+            functions: {},
+            dumpLineNumbers: "comments",
+            relativeUrls: false,
+            rootpath: ":/a.com/"
+        };
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+
+</head>
 <body>
     
     <header>
-        <img src="imgs/logo.png" class="logo">
-        <div class="nav_launcher"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        <img src="/img/logo.svg" class="logo">
+        <div class="nav_launcher">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="clear"></div>
     </header>
     
-    <section class="flag">
-        <video autoplay loop>
-            <source src="vids/students.mp4" type="video/mp4"> 
-        </video>
-        <div class="flag-info">
-            <h1>Teens in Tech : Acquiring New Skills</h1>
-            <p>TITANS is a system for teaching teens technology skills they can use towards future employment. With many employers looking for either experience or a degree, we give students that are not on track for college a fighting chance to develop in the workforce.</p>
-        </div>
-        <div class="flag-carat-down">
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-        </div>
+    <section class="home-flag">
+        <h1>Unite + Cultivate Tech </h1>
+        <p>TiTANS is a system for teaching teens technology skills they can use towards future employment. With many employers looking for either experience or a degree, we give students that are not on track for college a fighting chance to develop in the workforce.</p>
+        <button>View Our Mission</button>
     </section>
-
+    
+    <div class="clear"></div>
+    
+    <section class="home-type-selection">
+        <article>
+            <h1>Student</h1>
+            <button>Take Quiz</button>
+            <button>Sign In</button>
+        </article>
+        <article>
+            <h1>Mentor</h1>
+            <button>Register</button>
+            <button>Sign In</button>
+        </article>
+        <div class="clear"></div>
+    </section>
+    
+    <section class="home-subjects">
+        <h1>Mentoring Subjects</h1>
+        <article>
+            <h2>Front End</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Back End</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Data</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+            </ul>
+        </article>
+        <article>
+            <h2>General</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+            </ul>
+        </article>
+        <div class="clear"></div>
+    </section>
+    
+    <section class="home-news">
+        <h1>Impact</h1>
+        <article>
+            <img src="img/news-home.jpg">
+            <div class="news-content">
+                <h2>This is a news story</h2>
+                <p>TiTANS is a system for teaching teens technology skills they can use towards future employment.</p>
+            </div>
+        </article>
+        <article>
+            <img src="img/news-home.jpg">
+            <div class="news-content">
+                <h2>This is a news story</h2>
+                <p>TiTANS is a system for teaching teens technology skills they can use towards future employment.</p>
+            </div>
+        </article>
+        <article>
+            <img src="img/news-home.jpg">
+            <div class="news-content">
+                <h2>This is a news story</h2>
+                <p>TiTANS is a system for teaching teens technology skills they can use towards future employment.</p>
+            </div>
+        </article>
+        <div class="clear"></div>
+    </section>
+    
+    <section class="home-contact">
+        <h1>Contact Us</h1>
+        <form>
+            <div class="contact-home">
+                <label>Name<br><input placeholder="John Cassidy" type="text"></label>
+                <label>Email<br><input placeholder="yourname@yourcompany.com" type="text"></label>
+                <label>Website<br><input placeholder="website.com" type="text"></label>
+            </div>
+            <div class="contact-home">
+                <label>Notes<br><textarea placeholder="Leave us a message.." rows="4"></textarea></label>
+                <label><input type="checkbox"> Subscribe to Our Newsletter</label>
+                <div class="contact-home-buttons">
+                    <input type="submit" value="submit">
+                    <input type="submit" value="cancel">
+                </div>
+            </div>
+            <div class="clear"></div>
+        </form>
+    </section>
+    
+    <footer>
+        <h3>Stay Connected With Us</h3>
+        <div class="social-media">
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </div>
+        <div class="copyright">Copyright &copy; 2016 TiTANS | All Rights Reserved</div>
+    </footer>
+    
 </body>
 </html>
