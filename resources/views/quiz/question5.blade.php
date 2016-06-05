@@ -43,9 +43,9 @@
         <h2>Which looks more fun to you?</h2>
         <div class="choices">
             <a href="http://titans-project.herokuapp.com/question6">
-            <img src="/img/coding.jpg" class="two" style="width: 50%; height: auto;">
+            <img src="/img/coding.jpg" class="two">
             </a>
-            <img src="/img/design.jpg" class="two" style="width: 50%; height: auto;">
+            <img src="/img/design.jpg" class="two">
             <div class="clear"></div>
         </div>
     </section>
