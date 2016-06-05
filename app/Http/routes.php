@@ -20,3 +20,6 @@ Route::get('/', function () {
     Route::resource('mentor', 'MentorController');
 
     Route::resource('school', 'SchoolController');
+
+    Route::resource('quiz', 'QuizController');
+    

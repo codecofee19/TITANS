@@ -19,6 +19,7 @@ class CreateSchoolsTable extends Migration
             $table->string('school_address');
             $table->string('school_region');
             $table->string('school_rating');
+            $table->integer('removed_flag')->default(0);
         });
     }
 
