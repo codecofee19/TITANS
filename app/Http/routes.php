@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::resource('student', 'StudentController');
+    Route::resource('student', 'StudentController');
+
+    Route::resource('mentor', 'MentorController');
+
+    Route::resource('school', 'SchoolController');

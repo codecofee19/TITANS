@@ -15,6 +15,16 @@ class CreateMentorsTable extends Migration
         Schema::create('mentors', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
+            $table->string('mentor_fname');
+		    $table->string('mentor_lname');
+		    $table->string('image_name');
+		    $table->string('email');
+		    $table->date('dob');
+		    $table->integer('student_id');
+            $table->string('zip_code');
+            $table->string('job_title');
+            $table->string('skills');
+		    $table->string('status');
         });
     }
 

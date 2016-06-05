@@ -14,5 +14,23 @@
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
         </div>
     </section>
+    <section class="home-about">
+
+        <article>
+            <img src="imgs/mentor.jpg">
+            <h1>About Our Mentors</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in consequat purus. Donec et lectus at libero fermentum pretium. Proin tempor lacus sed nunc vehicula pellentesque. Quisque elit lacus, vestibulum id luctus non, vehicula tincidunt massa. Donec quis ante nisl. Maecenas id libero imperdiet, eleifend elit nec, iaculis.</p>
+        </article>
+
+        <article>
+            <h1>About Our Students</h1>
+        </article>
+
+        <article>
+            <h1>About Our Programs</h1>
+        </article>
+
+        <div class="clear"></div>
+    </section>
 
 @stop
