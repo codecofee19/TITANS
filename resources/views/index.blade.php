@@ -39,28 +39,28 @@
         <article>
             <h2>Back End</h2>
             <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>jQuery</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>Ruby</li>
+                <li>Python</li>
             </ul>
         </article>
         <article>
             <h2>Data</h2>
             <ul>
-                <li>HTML5</li>
+                <li>MySQL</li>
                 <li>CSS3</li>
-                <li>Javascript</li>
-                <li>jQuery</li>
+                <li>PostgreSQL</li>
+                <li>JSON</li>
             </ul>
         </article>
         <article>
             <h2>General</h2>
             <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>jQuery</li>
+                <li>Microsoft Office</li>
+                <li>Web &and; Email</li>
+                <li>Adobe Suite</li>
+                <li>Desktop Computing</li>
             </ul>
         </article>
         <div class="clear"></div>
