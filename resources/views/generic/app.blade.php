@@ -54,8 +54,12 @@
 <footer>
     <h3>Stay Connected With Us</h3>
     <div class="social-media">
-        <a href="https://twitter.com/titansproj"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <a href="https://twitter.com/titansproj">
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/thetitansproject">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
     </div>
     <div class="copyright">Copyright &copy; 2016 TiTANS | All Rights Reserved</div>
 </footer>
