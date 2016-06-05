@@ -47,9 +47,10 @@
             <label class="half">Phone<br><input type="text" placeholder="512-555-1212"></label>
             <label class="half">Email<br><input type="text" placeholder="john.smith@gmail.com"></label>
             {{--<input type="submit" value="Find My Match" onclick="window.location.href='http://titans-project.herokuapp.com/studentprofile'">--}}
+            <button onclick="window.location.href='http://titans-project.herokuapp.com/student_profile'">Find My Match</button>
             <div class="clear"></div>
         </form>
-        <button onclick="window.location.href='http://titans-project.herokuapp.com/studentprofile'">Find My Match</button>
+
     </section>
 
 @stop
