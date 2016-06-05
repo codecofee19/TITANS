@@ -14,8 +14,6 @@
     <link href='https://fonts.googleapis.com/css?family=Passion+One:400,700|Slabo+27px|Lato:400,300,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="dist/hamburgers.css" rel="stylesheet">
-
-
     <!-- Javascript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script>
@@ -33,6 +31,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 
 
@@ -54,4 +53,12 @@
     @stack('scripts')
 
 </body>
+<footer>
+    <h3>Stay Connected With Us</h3>
+    <div class="social-media">
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    </div>
+    <div class="copyright">Copyright &copy; 2016 TiTANS | All Rights Reserved</div>
+</footer>
 </html>
