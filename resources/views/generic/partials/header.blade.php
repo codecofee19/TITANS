@@ -1,5 +1,5 @@
 <header>
-    <a href="http://titans-project.herokuapp.com/">
+    <a href="/">
     <img src="/img/logo.svg" class="logo">
     </a>
     <div class="nav_launcher">
