@@ -73,6 +73,7 @@
             <div class="news-content">
                 <h2>A Successful Start at ATX Hack 4 Change</h2>
                 <p>Its been a long and stressful 3 days, but we have made it. Our team of Cody, Van, Cam, Sam, Ryan, Ashley, Zach and Harold worked through the weekend to develop the base for Teens in Tech : Acquiring New Skills.</p>
+                <a href="/"><button>Read Full Story</button></a>
             </div>
         </article>
         <div class="clear"></div>
