@@ -50,7 +50,7 @@
             {{--<button onclick="window.location.href='http://titans-project.herokuapp.com/student_profile'">Find My Match</button>--}}
             <div class="clear"></div>
         </form>
-        <button onclick="window.location.href='http://titans-project.herokuapp.com/student_profile'">Find My Match</button>
+        <button onclick="window.location.href='http://titans-project.herokuapp.com/studentprofile'">Find My Match</button>
     </section>
 
 @stop
