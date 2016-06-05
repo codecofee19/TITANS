@@ -26,27 +26,27 @@ class QuizController extends Controller
 
 	public function question3()
 	{
-		return view('quiz.question2');
+		return view('quiz.question3');
 	}
 
 	public function question4()
 	{
-		return view('quiz.question2');
+		return view('quiz.question4');
 	}
 
 	public function question5()
 	{
-		return view('quiz.question2');
+		return view('quiz.question5');
 	}
 
 	public function question6()
 	{
-		return view('quiz.question2');
+		return view('quiz.question6');
 	}
 
 	public function question7()
 	{
-		return view('quiz.question2');
+		return view('quiz.question7');
 	}
 
 	/**
