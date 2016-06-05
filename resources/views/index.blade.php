@@ -18,7 +18,7 @@
         </article>
         <article>
             <h1>Mentor</h1>
-            <button>Register</button>
+            <button onclick="window.location.href='http://thetitansproject.us13.list-manage.com/subscribe?u=a8e26bb56f143be762049c345&id=5fe43f7dc7'">Register</button>
             <button>Sign In</button>
         </article>
         <div class="clear"></div>
