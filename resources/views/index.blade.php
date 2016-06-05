@@ -69,21 +69,7 @@
     <section class="home-news">
         <h1>Impact</h1>
         <article>
-            <img src="img/news-home.jpg">
-            <div class="news-content">
-                <h2>This is a news story</h2>
-                <p>TiTANS is a system for teaching teens technology skills they can use towards future employment.</p>
-            </div>
-        </article>
-        <article>
-            <img src="img/news-home.jpg">
-            <div class="news-content">
-                <h2>This is a news story</h2>
-                <p>TiTANS is a system for teaching teens technology skills they can use towards future employment.</p>
-            </div>
-        </article>
-        <article>
-            <img src="img/news-home.jpg">
+            <img src="img/news/atxhackforchange.jpg">
             <div class="news-content">
                 <h2>This is a news story</h2>
                 <p>TiTANS is a system for teaching teens technology skills they can use towards future employment.</p>
