@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Student;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -34,9 +35,9 @@ class StudentController extends Controller
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(Request $request)
 	{
-		//
+		Student::create($request->all());
 	}
 
 	/**
@@ -47,7 +48,7 @@ class StudentController extends Controller
 	 */
 	public function show($id)
 	{
-		//
+		$student = Student::findOrFail($id);
 	}
 
 	/**
@@ -58,7 +59,7 @@ class StudentController extends Controller
 	 */
 	public function edit($id)
 	{
-		//
+		$student = Student::findOrFail($id);
 	}
 
 	/**
@@ -67,9 +68,11 @@ class StudentController extends Controller
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update($id, Request $request)
 	{
-		//
+		$student = Student::findOrFail($id);
+		$input = $request->all();
+		$student->fill($input)->save();
 	}
 
 	/**
@@ -80,7 +83,7 @@ class StudentController extends Controller
 	 */
 	public function destroy($id)
 	{
-		//
+		Student::findOrFail($id)->update(array('removed_flag' => 1));
 	}
 
 }

@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\School;
 use Illuminate\Http\Request;
-
+use App\Quiz;
 use App\Http\Requests;
 
-class SchoolController extends Controller
+class QuizController extends Controller
 {
 	//
 	/**
@@ -17,7 +16,7 @@ class SchoolController extends Controller
 	 */
 	public function index()
 	{
-
+		//
 	}
 
 	/**
@@ -27,7 +26,7 @@ class SchoolController extends Controller
 	 */
 	public function create()
 	{
-
+		//
 	}
 
 	/**
@@ -37,7 +36,7 @@ class SchoolController extends Controller
 	 */
 	public function store(Request $request)
 	{
-		School::create($request->all());
+		Quiz::create($request->all());
 	}
 
 	/**
@@ -48,7 +47,7 @@ class SchoolController extends Controller
 	 */
 	public function show($id)
 	{
-		$school = School::findOrFail($id);
+		$quiz = Quiz::findOrFail($id);
 	}
 
 	/**
@@ -59,7 +58,7 @@ class SchoolController extends Controller
 	 */
 	public function edit($id)
 	{
-		$school = School::findOrFail($id);
+		$quiz = Quiz::findOrFail($id);
 	}
 
 	/**
@@ -70,9 +69,9 @@ class SchoolController extends Controller
 	 */
 	public function update($id, Request $request)
 	{
-		$school = School::findOrFail($id);
+		$quiz = Quiz::findOrFail($id);
 		$input = $request->all();
-		$school->fill($input)->save();
+		$quiz->fill($input)->save();
 	}
 
 	/**
@@ -83,6 +82,6 @@ class SchoolController extends Controller
 	 */
 	public function destroy($id)
 	{
-		School::findOrFail($id)->update(array('removed_flag' => 1));
+		Quiz::findOrFail($id)->update(array('removed_flag' => 1));
 	}
 }

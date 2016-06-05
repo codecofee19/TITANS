@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mentor;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -34,9 +35,9 @@ class MentorController extends Controller
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(Request $request)
 	{
-		//
+		Mentor::create($request->all());
 	}
 
 	/**
@@ -47,7 +48,7 @@ class MentorController extends Controller
 	 */
 	public function show($id)
 	{
-		//
+		$mentor = Mentor::findOrFail($id);
 	}
 
 	/**
@@ -58,7 +59,7 @@ class MentorController extends Controller
 	 */
 	public function edit($id)
 	{
-		//
+		$mentor = Mentor::findOrFail($id);
 	}
 
 	/**
@@ -67,9 +68,11 @@ class MentorController extends Controller
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update($id, Request $request)
 	{
-		//
+		$mentor = Mentor::findOrFail($id);
+		$input = $request->all();
+		$mentor->fill($input)->save();
 	}
 
 	/**
@@ -80,6 +83,6 @@ class MentorController extends Controller
 	 */
 	public function destroy($id)
 	{
-		//
+		Mentor::findOrFail($id)->update(array('removed_flag' => 1));
 	}
 }

@@ -13,6 +13,7 @@ class School extends Model
 		'school_address',
 		'school_region',
 		'school_rating',
+		'removed_flag',
 
 	];
 

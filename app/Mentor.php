@@ -19,6 +19,7 @@ class Mentor extends Model
 		'status',
 		'skills',
 		'job_title',
+		'removed_flag',
 	];
 
 	public function students()

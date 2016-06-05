@@ -17,6 +17,7 @@ class Student extends Model
 		'school_id',
 		'quiz_id',
 		'mentor_id',
+		'removed_flag',
 	];
 
 	public function school()

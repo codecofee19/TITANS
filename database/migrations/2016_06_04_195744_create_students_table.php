@@ -22,7 +22,8 @@ class CreateStudentsTable extends Migration
             $table->date('dob');
             $table->integer('school_id');
             $table->integer('quiz_id');
-            $table->integer('mentor_id');
+            $table->integer('mentor_id')->nullable();
+            $table->integer('removed_flag')->default(0);
         });
     }
 
