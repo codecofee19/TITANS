@@ -33,7 +33,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-
+    
+    <meta property="og:image" content="/img/icon-social-media.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="550">
+    <meta property="og:image:height" content="550">
 
 </head>
 <body>
