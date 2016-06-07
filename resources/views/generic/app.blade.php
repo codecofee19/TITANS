@@ -51,12 +51,17 @@
             </div>
         </section>
     </section>
-    <!-- App scripts -->
+    <!-- App scripts --> 
     @stack('scripts')
 
 </body>
 <footer>
     <h3>Stay Connected With Us</h3>
+    <div class="contact">
+        <div class="left-contact">Phone</div><div class="right-contact">(737) 444-8184</div>
+        <div class="left-contact">Fax</div><div class="right-contact">(512) 887-5164</div>
+        <div class="left-contact">Email</div><div class="right-contact">info@thetitansproject.com</div>
+    </div>
     <div class="social-media">
         <a href="https://twitter.com/titansproj">
             <i class="fa fa-twitter-square" aria-hidden="true"></i>
