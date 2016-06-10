@@ -67,6 +67,7 @@
             <div class="clear"></div>
         </div>
     </article>
+<<<<<<< refs/remotes/origin/master
     <div class="social-media">
         <a href="https://twitter.com/titansproj">
             <i class="fa fa-twitter-square" aria-hidden="true"></i>
@@ -75,6 +76,19 @@
             <i class="fa fa-facebook-square" aria-hidden="true"></i>
         </a>
     </div>
+=======
+    <article>
+        <div class="social-media">
+            <a href="https://twitter.com/titansproj">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/thetitansproject">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+        </div>
+    </article>
+    <div class="clear"></div>
+>>>>>>> Footer Changes
     <div class="copyright">Copyright &copy; 2016 TiTANS | All Rights Reserved</div>
 </footer>
 <meta name="google-site-verification" content="00P0rnadToUMU2f0eLXwIVt95fEsuKQ9n8QwkOfxwDs" />
