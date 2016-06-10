@@ -65,7 +65,7 @@
         </div>
     </article>
     <article> 
-        <h3>Find Us on Social Media</h3> 
+        <h3>Find Us on Social Media</h3>
         <div class="social-media">
             <a href="https://twitter.com/titansproj">
                 <i class="fa fa-twitter-square" aria-hidden="true"></i>
