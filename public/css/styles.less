@@ -509,42 +509,47 @@ footer{
     box-sizing: border-box;
     background: @main;
     padding: 4% 2%;
-    h3{
-        letter-spacing: 1px;
-        text-align: center;
-        color: @white;
-        .f1;
-        .fs4;
-    }
-    .contact{
-        width: 100%;
-        padding: 25px 0;
-        color: @white;
-        .left-contact{
-            float: left;
-            width: 49%;
-            text-align: right;
-            .fs3;
-            .f2;
+    article{
+        width: 33%;
+        padding: 5%;
+        float: left;
+        h3{
+            letter-spacing: 1px;
+            text-align: center;
+            color: @white;
+            .f1;
+            .fs4;
         }
-        .right-contact{
-            float: right;
-            width: 49%;
-            text-align: left;
-            .fs3;
-            .f3;
+        .contact{
+            width: 100%;
+            padding: 25px 0;
+            color: @white;
+            .left-contact{
+                float: left;
+                width: 49%;
+                text-align: right;
+                .fs3;
+                .f2;
+            }
+            .right-contact{
+                float: right;
+                width: 49%;
+                text-align: left;
+                .fs3;
+                .f3;
+            }
         }
-    }
-    .social-media{
-        padding: 10px;
-        text-align: center;
-        color: @c4;
-        .fs4;
-        a{
+        .social-media{
+            padding: 10px;
+            text-align: center;
             color: @c4;
             .fs4;
-            &:hover{
-                color: @white;
+            a{
+                color: @c4;
+                .fs4;
+                &:hover{
+                    color: @white;
+                }
             }
         }
     }
