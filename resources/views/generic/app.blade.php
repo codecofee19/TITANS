@@ -68,6 +68,7 @@
         </div>
     </article>
 <<<<<<< refs/remotes/origin/master
+<<<<<<< refs/remotes/origin/master
     <div class="social-media">
         <a href="https://twitter.com/titansproj">
             <i class="fa fa-twitter-square" aria-hidden="true"></i>
@@ -78,6 +79,9 @@
     </div>
 =======
     <article>
+=======
+    <article> 
+>>>>>>> Footer Edits
         <div class="social-media">
             <a href="https://twitter.com/titansproj">
                 <i class="fa fa-twitter-square" aria-hidden="true"></i>
