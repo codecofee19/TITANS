@@ -59,9 +59,9 @@
     <article>
         <h3>Stay Connected With Us</h3>
         <div class="contact">
-            <font>Phone | </font>(737) 444-8184<br>
-            <font>Fax | </font>(512) 887-5164<bR>
-            <font>Email | </font>info@thetitansproject.com
+            <font>Phone</font> | (737) 444-8184<br>
+            <font>Fax</font> | (512) 887-5164<bR>
+            <font>Email</font> | info@thetitansproject.com
         </div>
     </article>
     <article> 
@@ -73,12 +73,15 @@
             <a href="https://www.facebook.com/thetitansproject">
                 <i class="fa fa-facebook-square" aria-hidden="true"></i>
             </a>
+            <a href="https://www.youtube.com/channel/UC5sjgY4AadnErQEMe7nQf6A">
+                <i class="fa fa-youtube-square" aria-hidden="true"></i>
+            </a>
         </div>
     </article>
     <article>
         <h3>Our Story</h3>
         <div class="contact">
-            <font>The Start | </font> Teens in Tech : Acquiring New Skills started as project during the 2016 ATX Hack 4 Change. Our starting goal was to create a system that connects teens with mentors in the tech sector. What became was a larger than expected, and is on route to establish a network of well equipped graduates who are ready to take on tomorrow.
+            <font>The Start</font> |  Teens in Tech : Acquiring New Skills started as project during the 2016 ATX Hack 4 Change. Our starting goal was to create a system that connects teens with mentors in the tech sector. What became was a larger than expected, and is on route to establish a network of well equipped graduates who are ready to take on tomorrow.
         </div>
     </article>
     <div class="clear"></div>
