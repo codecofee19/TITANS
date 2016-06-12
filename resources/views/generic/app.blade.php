@@ -59,9 +59,9 @@
     <article>
         <h3>Stay Connected With Us</h3>
         <div class="contact">
-            <font>Phone</font> (737) 444-8184<br>
-            <font>Fax</font> (512) 887-5164<bR>
-            <font>Email</font> info@thetitansproject.com
+            <font>Phone</font><br>(737) 444-8184<br><br>
+            <font>Fax</font><br>(512) 887-5164<br><br>
+            <font>Email</font><br>info@thetitansproject.com
         </div>
     </article>
     <article> 
