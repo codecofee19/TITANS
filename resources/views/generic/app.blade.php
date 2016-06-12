@@ -61,15 +61,15 @@
         <div class="contact">
             <div class="contact-info">
                 <font>Phone</font><br>
-                (737) 444-8184
+                <font-one>(737) 444-8184</font-one>
             </div>
             <div class="contact-info">
                 <font>Fax</font><br>
-                (512) 887-5164
+                <font-one>(512) 887-5164</font-one>
             </div>
             <div class="contact-info">
                 <font>Email</font><br>
-                info@thetitansproject.com
+                <font-one>info@thetitansproject.com</font-one>
             </div>
         </div>
     </article>
