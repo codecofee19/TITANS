@@ -11,18 +11,47 @@
     <div class="clear"></div>
 
     <section class="home-type-selection">
+        
         <article>
             <h1>Student</h1>
             <a href="http://titans-project.herokuapp.com/question1">
                 <button>Take Quiz</button>
             </a>
-            <button>Sign In</button>
+            <a href="http://titans-project.herokuapp.com/question1">
+                <button>Sign In</button>
+            </a>
         </article>
+        
         <article>
             <h1>Mentor</h1>
-            <button onclick="window.location.href='http://thetitansproject.us13.list-manage.com/subscribe?u=a8e26bb56f143be762049c345&id=5fe43f7dc7'">Register</button>
-            <button>Sign In</button>
+            <a href="http://thetitansproject.us13.list-manage.com/subscribe?u=a8e26bb56f143be762049c345&id=5fe43f7dc7">
+                <button>Pre-Register</button>
+            </a>
+            <a href="http://titans-project.herokuapp.com/question1">
+                <button><font>Sign In</font></button>
+            </a>
         </article>
+        
+        <article>
+            <h1>Partnership</h1>
+            <a href="http://titans-project.herokuapp.com/question1">
+                <button>Take Quiz</button>
+            </a>
+            <a href="http://titans-project.herokuapp.com/question1">
+                <button>Sign In</button>
+            </a>
+        </article>
+        
+        <article>
+            <h1>Donations</h1>
+            <a href="http://titans-project.herokuapp.com/question1">
+                <button>Take Quiz</button>
+            </a>
+            <a href="http://titans-project.herokuapp.com/question1">
+                <button>Sign In</button>
+            </a>
+        </article>
+        
         <div class="clear"></div>
     </section>
 
