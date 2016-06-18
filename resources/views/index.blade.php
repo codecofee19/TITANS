@@ -15,10 +15,10 @@
         <article>
             <h1>Student</h1>
             <a href="http://titans-project.herokuapp.com/question1">
-                <button>Take Quiz</button>
+                <button><font>Take Quiz</font></button>
             </a>
             <a href="http://titans-project.herokuapp.com/question1">
-                <button>Sign In</button>
+                <button><font>Sign In</font></button>
             </a>
         </article>
         
@@ -35,20 +35,20 @@
         <article>
             <h1>Partnership</h1>
             <a href="http://titans-project.herokuapp.com/question1">
-                <button>Take Quiz</button>
+                <button><font>Non-Profits</font></button>
             </a>
             <a href="http://titans-project.herokuapp.com/question1">
-                <button>Sign In</button>
+                <button><font>Corporate</font></button>
             </a>
         </article>
         
         <article>
             <h1>Donations</h1>
             <a href="http://titans-project.herokuapp.com/question1">
-                <button>Take Quiz</button>
+                <button><font>Individual</font></button>
             </a>
             <a href="http://titans-project.herokuapp.com/question1">
-                <button>Sign In</button>
+                <button><font>Corporate</font></button>
             </a>
         </article>
         
