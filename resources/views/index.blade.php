@@ -134,8 +134,9 @@
             <h2>Visit Our IndieGoGo Campaign</h2>
             <a class="close" href="#popup1">&times;</a>
             <div class="content">
-                Thank to pop me out of that button, but now i'm done so you can close this window.
-            </div>
+                We are starting our Indie GoGo campaign, and could use your help. Please take a moment to view our campaign and share with your friends, family, and colleagues. View our campaign to learn a little more about our project, as well as the perks that are available for helping support our cause. Use <a href="https://www.indiegogo.com:443/projects/1802313/x/14408428?secret_perk_token=0b0c6d56">this link</a> to save $100 on our Gold Perk.
+                <a href="https://igg.me/at/titans"><img src="img/indiegogo.png"></a>
+            </div> 
         </div>
     </div>
     
