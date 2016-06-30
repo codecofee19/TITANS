@@ -129,6 +129,7 @@
         </form>
     </section>
 
+<!--
     <div id="popup1" class="overlay">
         <div class="popup">
             <h2>Visit Our IndieGoGo Campaign</h2>
@@ -139,5 +140,6 @@
             </div> 
         </div>
     </div>
+-->
     
 @stop
