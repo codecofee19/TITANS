@@ -5,7 +5,7 @@
     <section class="home-flag">
         <h1>Unite + Cultivate Tech </h1>
         <p>TiTANS is a system for teaching teens technology skills they can use towards future employment. With many employers looking for either experience or a degree, we give students that are not on track for college a fighting chance to develop in the workforce.</p>
-        <button>View Our Mission</button>
+        <a href="#popup1"><button>View Our Mission</button></a>
     </section>
 
     <div class="clear"></div>
@@ -128,6 +128,16 @@
             <div class="clear"></div>
         </form>
     </section>
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Here i am</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			Thank to pop me out of that button, but now i'm done so you can close this window.
+		</div>
+	</div>
+</div>
 
 <!--
     <div id="popup1" class="overlay">
